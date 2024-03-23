@@ -1,30 +1,42 @@
-Agency Jekyll theme
-====================
+# Spotlight
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
-# How to use
+## Getting started
 
-###Portfolio 
+To get started with this template, first install the npm dependencies:
 
-Portfolio projects are in '/_posts'
+```bash
+npm install
+```
 
-Images are in '/img/portfolio'
+Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
 
-###About
+```
+NEXT_PUBLIC_SITE_URL=https://example.com
+```
 
-Images are in '/img/about/'
+Next, run the development server:
 
-###Team
+```bash
+npm run dev
+```
 
-Team members and info are in '_config.yml'
+Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-Images are in '/img/team/'
+## Customizing
 
+You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
 
-# Demo
+## License
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+## Learn more
+
+To learn more about the technologies used in this site template, see the following resources:
+
+- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
+- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
+- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+- [MDX](https://mdxjs.com) - the MDX documentation
